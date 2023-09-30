@@ -1,0 +1,170 @@
+body {
+  margin: 40px;
+}
+/* debut de l'entête*/
+.parent-1 {
+  display: grid;
+  grid-template-rows: repeat(2 1fr);
+}
+.enf-1 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  font-family: News706 BT;
+  margin-bottom: 40px;
+}
+.enf-2 {
+  display: flex;
+  gap: 20px;
+  text-align: center;
+}
+.petit-enf-1 {
+  width: 35%;
+}
+.petit-enf-2 {
+  width: 30%;
+}
+.petit-enf-3 {
+  width: 35%;
+}
+#tex1 {
+  font-size: 80px;
+  font-family: Blackoak Std;
+}
+#tex2 {
+  font-size: 30px;
+  font-family: News706 BT;
+}
+#tex3 {
+  font-size: ;
+  font-family: ;
+}
+.tex1 {
+  color: rgb(165, 42, 48);
+}
+.tex2 {
+  color: rgb(143, 180, 10);
+}
+.tex3 {
+  color: rgb(42, 116, 165);
+}
+
+header {
+  padding: 5%;
+} /*fin de l'entête*/
+/* debut le corp de la page*/
+.parent-2 {
+  display: grid;
+  grid-template-rows: repeat(3 1fr);
+}
+.enfant-1 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  font-family: News706 BT;
+  top: 20px;
+}
+.enfant-2 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-family: News706 BT;
+  top: 20px;
+}
+.enfant-3 {
+  display: flex;
+  margin: 5%;
+  padding: 5%;
+  gap: 30px;
+}
+.petit-enfant-1 {
+  width: 25%;
+}
+.petit-enfant-2 {
+  width: 25%;
+}
+.petit-enfant-3 {
+  width: 25%;
+}
+.petit-enfant-4 {
+  width: 25%;
+}
+.ele-1 {
+  border-radius: 50%;
+}
+#ele-2 {
+  text-align: center;
+  font-family: News706 BT;
+  font-size: 20px;
+}
+#ele-3 {
+  text-align: center;
+}
+#ele-4 {
+  text-align: left;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+/*fin du corp de la page*/
+/* debut du pied de page*/
+.parent-3 {
+  display: grid;
+  grid-template-rows: repeat(2 1fr);
+}
+.junior-1 {
+  text-align: center;
+  font-family: News706 BT;
+  font-size: 40px;
+  color: rgb(33, 29, 56);
+}
+.junior-2 {
+  background-color: blue;
+  margin: 5%;
+  border-radius: 2%;
+  height: 200px;
+  color: #fff;
+}
+.petit-junior1 {
+  text-align: center;
+  font-family: News706 BT;
+  font-size: 20px;
+}
+.petit-junior2 {
+  width: 80%;
+}
+input {
+  width: 50%;
+  border-radius: 5%;
+  margin-left: 40%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.petit-junior3 {
+  display: flex;
+  font-size: 20px;
+}
+
+.jur1 {
+  width: 70%;
+  text-align: right;
+}
+.jur2 {
+  width: 10%;
+}
+.jur3 {
+  width: 5%;
+}
+.jur4 {
+  width: 10%;
+}
+button {
+  background-color: blue;
+  border-color: black;
+}
+/* fin du pied de page */
